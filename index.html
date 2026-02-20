@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Weather App</title>
+
+<link rel="stylesheet" href="style.css"/>
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="nav">
+  <div class="links">
+    <a class="WeatherApp">Weather App</a>
+  </div>
+
+  <div class="search-box">
+    <input id="input" type="text" placeholder="Enter City For Search"/>
+    <button class="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+  </div>
+</nav>
+
+<!-- CARD -->
+<main class="center">
+
+<div class="weather-card">
+
+  <div class="city">.....</div>
+
+  <h1 class="temp">0 °c</h1>
+
+  <img class="weather-icon"
+  src="https://cdn-icons-png.flaticon.com/512/1163/1163661.png" />
+
+  <p class="desc">...</p>
+
+  <div class="details">
+
+
+    <div class="item">
+      <span>0%</span>
+      <p>Humidity</p>
+    </div>
+
+    <div class="item">
+      <span>0 km/h</span>
+      <p>Wind Speed</p>
+    </div>
+
+        <div class="item">
+      <span>0 mb</span>
+      <p>pressure</p>
+    </div>
+
+  </div>
+
+</div>
+</main>
+<script src="main.js"></script>
+</body>
+</html>
